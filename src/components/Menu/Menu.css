@@ -1,0 +1,11 @@
+.menu-link a{
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    transition: 1s;
+}
+.menu-link a:hover{
+    background-color: rgba(255, 166, 0, 0.733);
+    border-radius: 0 10px 10px 0;
+    color: white;
+}

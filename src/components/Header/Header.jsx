@@ -11,7 +11,7 @@ const Header = () => {
 	}, []);
 	console.log(menus);
 	return (
-		<nav className="flex">
+		<nav>
 			{menus.map((menu) => (
 				<Menu key={menu.id} menu={menu}></Menu>
 			))}

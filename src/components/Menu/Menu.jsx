@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import ActiveNavLink from '../ActiveNavLink/ActiveNavLink';
+import './Menu.css';
 const Menu = ({ menu }) => {
 	return (
-		<ul>
-			<Link to={menu.url}>{menu.title}</Link>
-		</ul>
+		<div className="menu-link">
+			<ActiveNavLink to={menu.url}>{menu.title}</ActiveNavLink>
+		</div>
 	);
 };
 

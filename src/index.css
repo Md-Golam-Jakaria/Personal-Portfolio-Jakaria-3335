@@ -4,4 +4,6 @@
 :root {
   font-family: Arial, Inter, system-ui, Avenir, Helvetica,  sans-serif;
   line-height: 1.5;
-  font-weight: 400;}
+  font-weight: 400;
+  background-color: rgb(2, 35, 73);
+}

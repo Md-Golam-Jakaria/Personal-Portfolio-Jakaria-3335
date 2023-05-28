@@ -1,0 +1,7 @@
+.active{
+    background-color: orange ;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    text-align: right;
+    transition: .5s;
+}
