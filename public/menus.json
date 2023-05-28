@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "id": "2",
+    "title": "About Us",
+    "url": "/about"
+  },
+  {
+    "id": "3",
+    "title": "Services",
+    "url": "/services",
+    "submenus": [
+      {
+        "id": "3-1",
+        "title": "Web Design",
+        "url": "/services/web-design"
+      },
+      {
+        "id": "3-2",
+        "title": "Graphic Design",
+        "url": "/services/graphic-design"
+      },
+      {
+        "id": "3-3",
+        "title": "Digital Marketing",
+        "url": "/services/digital-marketing"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Portfolio",
+    "url": "/portfolio"
+  },
+  {
+    "id": "5",
+    "title": "Contact",
+    "url": "/contact"
+  }
+]
